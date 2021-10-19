@@ -45,7 +45,9 @@ Se non ho capito l assegnazione dell esercizio ma quanto spiegato la mattina si:
 
 INIZIO L ESERCIZIO:
     -Cerco di capire da dove iniziare
-    -Analizzo attentamente il "problema" che mi si pone davanti 
+
+    -Analizzo attentamente il "problema" che mi si pone davanti
+
     -cerco la soluzione da me ritenuta più semplice scomponendo il "problema" in problemini più piccoli
         SE ho ben chiaro come suddividere il mio problema:
             -ALLORA INIZIO A SCRIVERE SU VISUAL studio
@@ -60,13 +62,33 @@ INIZIO L ESERCIZIO:
                         -vado avanti con l esercizio.
         Finche non ho ben chiaro come suddividere il mio problema:
             -cerco la soluzione da me ritenuta più semplice scomponendo il "problema" in problemini più piccoli
-   -Cerco di capire come suddividere il tempo a mia disposizione per risolvere in maniera più veloce e precisa il mio esercizio.
-    -Vado avanti con l esercizio
+
+    -CERCO DI CAPIRE COME SUDDIVIDERE IL TEMPO A MIA DISPOSIZIONE  IN MANIERA PIù VELOCE E PRECISA PER SVOLGERE L ESERCIZIO
+
+    -VADO AVANTI CON L ESERCIZIO
         -metto in stage eventuali modifiche
         -eseguo un commit ogni qualvolta lo ritengo necessario.
+            -Inserisco un commento che sintetizza al massimo il lavoro svolto fino a quel momento
         Faccio un push.
 
+        Se non riesco ad andaree avanti con l esercizio:
+            -cerco di capire dove sto sbagliando
+            -vado su analizza nel mio file (se si tratta di un esercizio .html) per provare a trovare una soluzione
+                Se ancora non riesco ad andare avanti con l esercizio
+                    -Apro un ticket su Slack.
    
+   -FINISCO L ESERCIZIO
+        se sono soddisdfatto dell esercizio che ho svolto.
+            -Eseguo un push finale
+        se non sono soddisfatto dell esercizio che ho svolto:
+            -cerco di migliorarlo
+            -provo altre soluzioni
+                se non trovo altre soluzioni:
+                    -Apro un ticket su Slack.
+            -Eseguo un push finale
+            -Il giorno dopo seguo attentamente la correzione dell esercizio.
+                Se ancora non sono soddisfatto:
+                    Chiedo delle ulteriori spiegazioni più specifiche. 
     
 
     
