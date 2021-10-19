@@ -4,17 +4,21 @@ Richiesta base:
 Mi siedo difronte alla scrivania
 
 Apro il pc portatile
-    SE non è già acceso:
-        -allora lo accendo
+    ? Se il pc  è già acceso:
+        -vado avanti
+    :ALTRIMENTI  
+         -lo accendo
 
 Entro su slack per leggere la comunicazione per l esercitazione
-    Se non ho la rete funzionante:
-        cerco di risolvere il problema
-    se ho la rete funzionante:
-        leggo l esercizio
+    ? se ho la rete funzionante:
+        -leggo l esercizio
+    : ALTRIMENTI
+        -cerco di risolvere il problema
+    FINCHE NON HO LA RETE FUNZIONANTE:
+        -cerco di risolvere il problema
 
-Se ho capito l assegnazione dell esercizio e quanto spiegato la mattina:
-    Allora inizio l esercizio        
+? Se ho capito l assegnazione dell esercizio e quanto spiegato la mattina:
+ALLORA INIZIO L ESERCIZIO      
         -Apro slack
         -copio il nome della repo.
         -vado su github
@@ -25,12 +29,12 @@ Se ho capito l assegnazione dell esercizio e quanto spiegato la mattina:
         -creo un file(o più a seconda dell esercizio) 
         -inizio l esercizio
 
- Se ho capito l assegnazione dell esercizio ma non quanto spiegato la mattina:
+? Se ho capito l assegnazione dell esercizio ma non quanto spiegato la mattina:
     -Allora vado su google drive
     -riguardo parte della lezione della mattina o le slide
-    -Se ho finalmente capito:
-        INIZIO L ESERCIZIO
-    Finchè non ho capito quanto spiegato la mattina:
+    ?Se ho finalmente capito:
+        -INIZO L ESERCIZIO
+    :ALTRIMENTI
         -Allora vado su google drive
         -riguardo parte della lezione della mattina o le slide
             Se ancora non ho capito:
@@ -39,7 +43,7 @@ Se ho capito l assegnazione dell esercizio e quanto spiegato la mattina:
                 INIZIO L ESERCIZIO
 
 
-Se non ho capito l assegnazione dell esercizio ma quanto spiegato la mattina si:
+? Se non ho capito l assegnazione dell esercizio ma quanto spiegato la mattina si:
     -Apro un ticket su slack
         Se ho finalmente capito:
         INIZIO L ESERCIZIO
@@ -51,46 +55,49 @@ INIZIO L ESERCIZIO:
     -Analizzo attentamente il "problema" che mi si pone davanti
 
     -cerco la soluzione da me ritenuta più semplice scomponendo il "problema" in problemini più piccoli
-        SE ho ben chiaro come suddividere il mio problema:
+        ? SE ho ben chiaro come suddividere il mio problema:
             -ALLORA INIZIO A SCRIVERE SU VISUAL studio
                 -Creo delle regole di debug
                 -apro il file da me creato precedentemente
                 -controllo che tutto stia funzionando in maniera corretta
-                    SE non riesco a vedere le regole di Debug
-                        Allora ricontrollo nel file html se ho inserito il link nella maniera corretta.
-                        -Finchè non ho capito perchè non vedo le regole di Debug
-                            -Cerco di risolvere il problema
-                    Se riesco a vedere le regole di Debug
+                    ? Se riesco a vedere le regole di Debug
                         -vado avanti con l esercizio.
+                    : ALTRIMENTI
+                        -ricontrollo nel file html se ho inserito il link nella maniera corretta.
+                    FINCHE non ho capito perchè non vedo le regole di Debug
+                            -Cerco di risolvere il problema
+                   
         Finche non ho ben chiaro come suddividere il mio problema:
             -cerco la soluzione da me ritenuta più semplice scomponendo il "problema" in problemini più piccoli
 
     -CERCO DI CAPIRE COME SUDDIVIDERE IL TEMPO A MIA DISPOSIZIONE  IN MANIERA PIù VELOCE E PRECISA PER SVOLGERE L ESERCIZIO
 
-    -VADO AVANTI CON L ESERCIZIO
+-VADO AVANTI CON L ESERCIZIO
         -metto in stage eventuali modifiche
         -eseguo un commit ogni qualvolta lo ritengo necessario.
             -Inserisco un commento che sintetizza al massimo il lavoro svolto fino a quel momento
         Faccio un push.
 
-        Se non riesco ad andaree avanti con l esercizio:
+        ? Se  riesco ad andare avanti con l esercizio:
+            -Proseguo sezione per sezione
+        : Altrimenti 
             -cerco di capire dove sto sbagliando
             -vado su analizza nel mio file (se si tratta di un esercizio .html) per provare a trovare una soluzione
                 Se ancora non riesco ad andare avanti con l esercizio
                     -Apro un ticket su Slack.
    
    -FINISCO L ESERCIZIO
-        se sono soddisdfatto dell esercizio che ho svolto.
+        ? se sono soddisdfatto dell esercizio che ho svolto.
             -Eseguo un push finale
-        se non sono soddisfatto dell esercizio che ho svolto:
+        : ALTRIMENTI:
             -cerco di migliorarlo
             -provo altre soluzioni
-                se non trovo altre soluzioni:
+                ? se non trovo altre soluzioni:
                     -Apro un ticket su Slack.
             
-            Se ancora non sono soddisfatto:
+            ? Se ancora non sono soddisfatto:
                 -Il giorno dopo seguo attentamente la correzione dell esercizio.
-                    Se ancora non sono soddisfatto:
+                    ? Se ancora non sono soddisfatto:
                         Chiedo delle ulteriori spiegazioni più specifiche. 
     
 
