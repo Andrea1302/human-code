@@ -87,10 +87,11 @@ INIZIO L ESERCIZIO:
             -provo altre soluzioni
                 se non trovo altre soluzioni:
                     -Apro un ticket su Slack.
-            -Eseguo un push finale
-            -Il giorno dopo seguo attentamente la correzione dell esercizio.
-                Se ancora non sono soddisfatto:
-                    Chiedo delle ulteriori spiegazioni più specifiche. 
+            
+            Se ancora non sono soddisfatto:
+                -Il giorno dopo seguo attentamente la correzione dell esercizio.
+                    Se ancora non sono soddisfatto:
+                        Chiedo delle ulteriori spiegazioni più specifiche. 
     
 
     
