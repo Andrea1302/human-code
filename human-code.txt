@@ -1,0 +1,78 @@
+Richiesta base:
+- implementare un layout assegnato come esercitazione pomeridiana
+
+Apro il pc portatile
+    SE non è già acceso:
+        -allora lo accendo
+
+Entro su slack per leggere la comunicazione per l esercitazione
+    Se non ho la rete funzionante:
+        cerco di risolvere il problema
+    se ho la rete funzionante:
+        leggo l esercizio
+
+Se ho capito l assegnazione dell esercizio e quanto spiegato la mattina:
+    Allora inizio l esercizio        
+        -Apro slack
+        -copio il nome della repo.
+        -vado su github
+        -incollo il nome della repo
+        -creo una nuova repo
+        -apro visual studio
+        -clono la repo di github
+        -creo un file(o più a seconda dell esercizio) 
+        -inizio l esercizio
+
+ Se ho capito l assegnazione dell esercizio ma non quanto spiegato la mattina:
+    -Allora vado su google drive
+    -riguardo parte della lezione della mattina o le slide
+    -Se ho finalmente capito:
+        INIZIO L ESERCIZIO
+    Finchè non ho capito quanto spiegato la mattina:
+        -Allora vado su google drive
+        -riguardo parte della lezione della mattina o le slide
+            Se ancora non ho capito:
+                -Apro un ticket su Slack.
+                Se ho finalmente capito:
+                INIZIO L ESERCIZIO
+
+
+Se non ho capito l assegnazione dell esercizio ma quanto spiegato la mattina si:
+    -Apro un ticket su slack
+        Se ho finalmente capito:
+        INIZIO L ESERCIZIO
+
+
+INIZIO L ESERCIZIO:
+    -Cerco di capire da dove iniziare
+    -Analizzo attentamente il "problema" che mi si pone davanti 
+    -cerco la soluzione da me ritenuta più semplice scomponendo il "problema" in problemini più piccoli
+        SE ho ben chiaro come suddividere il mio problema:
+            -ALLORA INIZIO A SCRIVERE SU VISUAL studio
+                -Creo delle regole di debug
+                -apro il file da me creato precedentemente
+                -controllo che tutto stia funzionando in maniera corretta
+                    SE non riesco a vedere le regole di Debug
+                        Allora ricontrollo nel file html se ho inserito il link nella maniera corretta.
+                        -Finchè non ho capito perchè non vedo le regole di Debug
+                            -Cerco di risolvere il problema
+                    Se riesco a vedere le regole di Debug
+                        -vado avanti con l esercizio.
+        Finche non ho ben chiaro come suddividere il mio problema:
+            -cerco la soluzione da me ritenuta più semplice scomponendo il "problema" in problemini più piccoli
+   -Cerco di capire come suddividere il tempo a mia disposizione per risolvere in maniera più veloce e precisa il mio esercizio.
+    -Vado avanti con l esercizio
+        -metto in stage eventuali modifiche
+        -eseguo un commit ogni qualvolta lo ritengo necessario.
+        Faccio un push.
+
+   
+    
+
+    
+
+        
+        
+
+
+        
