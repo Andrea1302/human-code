@@ -1,6 +1,8 @@
 Richiesta base:
 - implementare un layout assegnato come esercitazione pomeridiana
 
+Mi siedo difronte alla scrivania
+
 Apro il pc portatile
     SE non è già acceso:
         -allora lo accendo
